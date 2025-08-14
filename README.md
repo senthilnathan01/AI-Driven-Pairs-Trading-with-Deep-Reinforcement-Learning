@@ -55,4 +55,4 @@ The final optimized RL agent successfully learns a profitable strategy on out-of
 
 The project successfully demonstrates the value of an adaptive AI approach. While the simple rules-based strategy was unprofitable on the 2018-2019 test data, the final optimized Reinforcement Learning agent achieved a **positive Total Return and Sharpe Ratio**, learning to navigate the volatile market conditions effectively.
 
-![Final Performance Plot](<path-to-your-final-plot-image-if-you-add-one>)
+<img width="993" height="578" alt="image" src="https://github.com/user-attachments/assets/f468247c-f26f-48ea-94c8-5d460ce505bf" />
