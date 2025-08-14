@@ -1,0 +1,10 @@
+pandas
+yfinance
+statsmodels
+matplotlib
+gymnasium
+stable-baselines3[extra]
+torch
+optuna
+tqdm
+jupyter
