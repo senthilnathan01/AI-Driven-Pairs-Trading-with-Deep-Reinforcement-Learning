@@ -1,8 +1,14 @@
 # AI-Driven Pairs Trading with Deep Reinforcement Learning
 
+## TLDR
+
+* Developed a Deep Reinforcement Learning (PPO) trading agent that turned a -63% baseline loss into a positive return on out-of-sample data.
+
+* Engineered a custom gymnasium environment with added features (volatility, momentum) to train an adaptive AI for a dynamic pairs trading strategy.
+
 ## Overview
 
-This project implements a sophisticated pairs trading strategy for the PEP/KO stock pair, building upon classical quantitative finance principles from the book *Successful Algorithmic Trading* and enhancing them with a modern Deep Reinforcement Learning (DRL) agent.
+This project implements a sophisticated pairs trading strategy for the PEP (pepsi)/KO (Coca Cola) stock pair, building upon classical quantitative finance principles from the book *Successful Algorithmic Trading* and enhancing them with a modern Deep Reinforcement Learning (DRL) agent.
 
 The core idea is to move beyond static, rules-based trading (e.g., "trade when the z-score is > 2") and empower an AI agent to learn a dynamic, adaptive trading policy. The agent is trained to maximize its risk-adjusted returns by observing market conditions—including the pair's spread, volatility, and momentum—and deciding the optimal time to enter, exit, or hold a position.
 
@@ -56,3 +62,4 @@ The final optimized RL agent successfully learns a profitable strategy on out-of
 The project successfully demonstrates the value of an adaptive AI approach. While the simple rules-based strategy was unprofitable on the 2018-2019 test data, the final optimized Reinforcement Learning agent achieved a **positive Total Return and Sharpe Ratio**, learning to navigate the volatile market conditions effectively.
 
 <img width="993" height="578" alt="image" src="https://github.com/user-attachments/assets/f468247c-f26f-48ea-94c8-5d460ce505bf" />
+
