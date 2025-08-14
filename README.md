@@ -20,7 +20,8 @@ The value of the adaptive AI approach is clearly demonstrated by comparing the f
 
 *To add your chart, save the final plot image as `final_performance.png` in your repository.*
 
-![Final Performance Chart](final_performance.png)
+<img width="993" height="578" alt="image" src="https://github.com/user-attachments/assets/eda118a0-f6c2-4665-85dc-77fd477287a9" />
+
 
 ### Key Concepts Implemented
 - **Cointegration & Stationarity:** Statistical validation of the pair's relationship using the CADF test.
